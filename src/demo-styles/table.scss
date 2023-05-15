@@ -1,0 +1,61 @@
+.df-table .warning-row {
+  background: oldlace;
+}
+
+.df-table .success-row {
+  background: #f0f9eb;
+}
+
+.demo-table .name-wrapper {
+  display: inline-block;
+}
+
+.demo-table .demo-table-expand {
+  label {
+    width: 90px;
+    color: #99a9bf;
+  }
+  .df-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+  }
+}
+
+.demo-tableedit .demo-table-expand {
+  label {
+    width: 90px;
+    color: #99a9bf;
+  }
+  .df-form-item {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 50%;
+  }
+}
+.demo-table .demonstration {
+  display: block;
+  color: #8492a6;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px;
+}
+.demo-table .df-table+.demonstration {
+  margin-top: 20px;
+}
+.demo-table .custom-empty-block {
+  color: #2c8d51;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px;
+  text-align: center;
+}
+
+.demo-table .custom-summary {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #DADEE6;
+}

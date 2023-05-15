@@ -1,0 +1,18 @@
+.demo-block.demo-empty .empty-demo-base {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: solid 1px #eff2f6;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+.demo-empty .block {
+  padding: 30px 0;
+  text-align: center;
+  border-right: solid 1px #eff2f6;
+  flex: 1;
+  &:last-child {
+    border-right: none;
+  }
+}

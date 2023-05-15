@@ -1,0 +1,65 @@
+.demo-form {
+  .df-select {
+    width: 100%;
+  }
+  .df-form {
+    width: 460px;
+  }
+
+  .line {
+    text-align: center;
+  }
+
+  .df-checkbox-group {
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &:after,
+    &:before {
+      content: " ";
+      display: table;
+    }
+    &:after {
+      clear: both;
+      visibility: hidden;
+      font-size: 0;
+      height: 0;
+    }
+
+    .df-checkbox {
+      float: left;
+      width: 160px;
+      margin: 0;
+      padding: 0;
+
+      + .df-checkbox {
+        margin-left: 0;
+      }
+    }
+  }
+  .demo-form-normal {
+    width: 460px;
+  }
+  .demo-form-inline {
+    width: auto;
+
+    .df-input {
+      width: 150px;
+    }
+  }
+  .demo-ruleForm {
+    width: 460px;
+  }
+  .demo-dynamic {
+    .df-input {
+      margin-right: 10px;
+      width: 270px;
+      vertical-align: top;
+    }
+  }
+  .fr {
+    float: right;
+  }
+}

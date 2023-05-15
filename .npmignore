@@ -1,0 +1,9 @@
+build/
+docs/
+public/
+src/
+babel.config.js
+components.json
+vue.config.js
+postcss.config.js
+*.map

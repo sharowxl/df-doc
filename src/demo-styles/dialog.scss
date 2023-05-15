@@ -1,0 +1,21 @@
+.demo-block.demo-dialog {
+  .full-image {
+    width: 100%;
+  }
+  .df-dialog__wrapper {
+    margin: 0;
+  }
+  .df-select {
+    width: 300px;
+  }
+  .df-input {
+    width: 300px;
+  }
+  .df-button--text {
+    margin-right: 15px;
+  }
+  .dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

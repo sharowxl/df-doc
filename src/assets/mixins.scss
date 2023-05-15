@@ -1,0 +1,35 @@
+@mixin grey-scroll-bar($showOnHover, $width, $marginRight) {
+  margin-right: $marginRight;
+  &::-webkit-scrollbar {
+    border: none;
+    width: $width;
+  }
+  @if $showOnHover {
+    &:hover {
+      &::-webkit-scrollbar-thumb {
+        background-color: rgba(144,147,153,.3);
+        &:hover {
+          background-color: rgba(144,147,153,.5);
+        }
+      }
+    }
+    &::-webkit-scrollbar-thumb {
+      cursor: pointer;
+      display: block;
+      border-radius: 4px;
+      background-color: rgba(144, 147, 153, 0);
+      transition: background-color .3s;
+    }
+  } @else {
+    &::-webkit-scrollbar-thumb {
+      cursor: pointer;
+      display: block;
+      border-radius: 4px;
+      background-color: rgba(144, 147, 153, 0.3);
+      transition: background-color .3s;
+      &:hover {
+        background-color: rgba(144,147,153, .5);
+      }
+    }
+  }
+}

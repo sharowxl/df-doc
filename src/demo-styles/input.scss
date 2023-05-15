@@ -1,0 +1,68 @@
+.demo-input {
+  .df-select .df-input {
+    width: 130px;
+  }
+  .df-input {
+    width: 180px;
+  }
+  .df-textarea {
+    width: 414px;
+  }
+  .df-input-group {
+    width: 100%;
+  }
+  .demo-input-size {
+    .df-input {
+      vertical-align: top;
+      margin: 0 10px 10px 0;
+    }
+  }
+  .input-with-select .df-input-group__prepend {
+    background-color: #fff;
+  }
+  .demo-autocomplete {
+    text-align: center;
+
+    .sub-title {
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #8492a6;
+    }
+
+    .df-col:not(:last-child) {
+      border-right: 1px solid rgba(224, 230, 237, 0.5);
+    }
+
+    .df-autocomplete {
+      text-align: left;
+    }
+  }
+}
+.df-autocomplete-suggestion.my-autocomplete {
+  li {
+    line-height: normal;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    .name {
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .addr {
+      font-size: 12px;
+      color: #b4b4b4;
+    }
+    .highlighted .addr {
+      color: #ddd;
+    }
+  }
+}
+.demo-input-suffix {
+  margin-bottom: 15px;
+  .df-input {
+    margin-right: 15px;
+  }
+}
+.demo-input-pend {
+  padding: 0 20px;
+}

@@ -1,0 +1,182 @@
+{
+  "新病人": {
+    "type": "text",
+    "value": "新",
+    "color": "#88c25e",
+    "title": "新病人"
+  },
+  "出院": {
+    "type": "text",
+    "value": "出",
+    "color": "#f3a867",
+    "title": "出院"
+  },
+  "高危跌倒": {
+    "type": "text",
+    "value": "跌",
+    "color": "#548cef",
+    "title": "高危跌倒"
+  },
+  "特级护理": {
+    "type": "text",
+    "value": "特",
+    "color": "#ec554e",
+    "title": "特级"
+  },
+  "一级护理": {
+    "type": "text",
+    "value": "Ⅰ",
+    "color": "#f19346",
+    "title": "一级"
+  },
+  "二级护理": {
+    "type": "text",
+    "value": "Ⅱ",
+    "color": "#6db23e",
+    "title": "二级"
+  },
+  "三级护理": {
+    "type": "text",
+    "value": "Ⅲ",
+    "color": "#548cef",
+    "title": "三级"
+  },
+  "手术": {
+    "type": "text",
+    "value": "术",
+    "color": "#548cef",
+    "title": "手术"
+  },
+  "婴儿": {
+    "type": "icon",
+    "value": "df-icon-baby",
+    "color": "#c28b57",
+    "title": "婴儿"
+  },
+  "VTE": {
+    "type": "text",
+    "value": "VTE",
+    "color": "#bca5f3",
+    "title": "VTE"
+  },
+  "过敏": {
+    "type": "text",
+    "value": "敏",
+    "color": "#ec605a",
+    "title": "过敏"
+  },
+  "新医嘱": {
+    "type": "text",
+    "value": "★",
+    "color": "#ec605a",
+    "title": "新医嘱"
+  },
+  "压疮": {
+    "type": "text",
+    "value": "疮",
+    "color": "#f5b55d",
+    "title": "压疮"
+  },
+  "体温异常": {
+    "type": "text",
+    "value": "温",
+    "color": "#f3a867",
+    "title": "体温异常"
+  },
+  "ADL": {
+    "type": "text",
+    "value": "A",
+    "color": "#538cec",
+    "title": "ADL"
+  },
+  "疼痛": {
+    "type": "text",
+    "value": "痛",
+    "color": "#f3a867",
+    "title": "疼痛"
+  },
+  "隔离": {
+    "type": "text",
+    "value": "隔",
+    "color": "#548cef",
+    "title": "隔离"
+  },
+  "危": {
+    "type": "text",
+    "value": "危",
+    "color": "#548cef",
+    "title": "危"
+  },
+  "重": {
+    "type": "text",
+    "value": "重",
+    "color": "#f5b55d",
+    "title": "重"
+  },
+  "危重": {
+    "type": "array",
+    "value": ["危", "重"],
+    "color": "",
+    "title": "危重"
+  },
+  "输血": {
+    "type": "text",
+    "value": "血",
+    "color": "#548cef",
+    "title": "输血"
+  },
+  "待执行": {
+    "type": "text",
+    "value": "待",
+    "color": "#f3a867",
+    "title": "待执行"
+  },
+  "危急值": {
+    "type": "icon",
+    "value": "df-icon-diagnosis",
+    "color": "#f5b55d",
+    "title": "危急值"
+  },
+  "出径": {
+    "type": "text",
+    "value": "CP",
+    "color": "#a5a8b3",
+    "title": "出径"
+  },
+  "入径": {
+    "type": "text",
+    "value": "CP",
+    "color": "#a27ff6",
+    "title": "入径"
+  },
+  "担保": {
+    "type": "text",
+    "value": "担",
+    "color": "#548cef",
+    "title": "担保"
+  },
+  "耐药": {
+    "type": "text",
+    "value": "耐",
+    "color": "#548cef",
+    "title": "耐药"
+  },
+  "欠费": {
+    "type": "text",
+    "value": "欠",
+    "color": "#548cef",
+    "title": "欠费"
+  },
+  "冻结": {
+    "type": "text",
+    "value": "冻",
+    "color": "#999999",
+    "title": "冻结"
+  },
+  "撤销": {
+    "type": "text",
+    "value": "撤",
+    "color": "#f2a25c",
+    "title": "撤销"
+  }
+}

@@ -1,0 +1,11 @@
+.demo-block.demo-popover {
+  .df-popover + .df-popover {
+    margin-left: 8px;
+  }
+  .df-input {
+    width: 360px;
+  }
+  .df-button {
+    margin-left: 8px;
+  }
+}

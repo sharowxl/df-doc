@@ -1,0 +1,19 @@
+.demo-patient.icons-map-table {
+  .df-patient-info-item {
+    display: flex;
+  }
+  .df-patient-info-item-value {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    color: #fff;
+    margin-left: 7px;
+    &.VTE {
+      width: 24px;
+      font-size: 12px;
+    }
+  }
+}

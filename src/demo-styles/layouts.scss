@@ -1,0 +1,19 @@
+.demo-layouts{
+  .default-layout {
+    width: 1000px;
+    height: 600px;
+    .layout-left,
+    .layout-middle,
+    .layout-right {
+      line-height: 560px;
+      text-align: center;
+      height: calc(100% - 2px);
+    }
+    .df-layout-left > .layout-left,
+    .df-layout-default > .layout-middle,
+    .df-layout-right > .layout-right{
+      border:1px solid #e0e0e0;
+      background-color: #f0f0f0;
+    }
+  }
+}
